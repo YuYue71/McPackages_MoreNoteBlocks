@@ -1,0 +1,410 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞磁石聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lodestone.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 放置磁石聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lodestone.place\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞金屬方塊聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.metal.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 在金屬方塊上行走聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.metal.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞地獄磚聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.nether_bricks.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 在地獄磚上行走聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.nether_bricks.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞地獄木材聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.nether_wood.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞獄髓方塊聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.netherite_block.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：大鼓（下方為石頭類方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.basedrum\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：貝斯（下方為木頭類方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.bass\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：金屬鐘（下方為金塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.bell\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：管鐘（下方為冰類方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.chime\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：牛鈴（下方為靈魂沙）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.cow_bell\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：迪吉里杜管（下方為南瓜）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.didgeridoo\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：長笛（下方為黏土）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.flute\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：吉他（下方為羊毛）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.guitar\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：豎琴（下方為普通方塊/空氣）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.harp\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：腳踏鈸（下方為沙類方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.hat\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：鐵琴（下方為鐵塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.iron_xylophone\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：小鼓（下方為礫石）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.snare\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：木琴（下方為骨頭方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.xylophone\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：8位元電子音（下方為翡翠方塊）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.bit\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：班卓琴（下方為乾草捆）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.banjo\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 音箱：求饒音（下方為不祥試煉生怪磚）\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.note_block.pleading\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 活塞收回聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.piston.contract\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 活塞推出聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.piston.extend\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 地獄門常態幽冥音效\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.portal.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

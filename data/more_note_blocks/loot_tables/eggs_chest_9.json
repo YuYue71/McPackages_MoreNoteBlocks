@@ -1,0 +1,410 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 沼骸常態骨頭摩擦聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.bogged.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 沼骸散落死亡聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.bogged.death\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 沼骸受傷沉悶聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.bogged.hurt\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 用剪刀剪下沼骸頭上蘑菇聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.bogged.shear\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 旋風人移動突風常態音\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.breeze.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 旋風人風元素消散死亡聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.breeze.death\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 旋風人受到物理撞擊聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.breeze.hurt\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 旋風人發射風彈瞬間聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.breeze.shoot\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 旋風人在地面上高速滑行聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.breeze.slide\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 駱駝低沉咆哮常態音\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.camel.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 駱駝死亡倒地聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.camel.death\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 駱駝受傷悲鳴聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.camel.hurt\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 駱駝坐下聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.camel.sit\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 駱駝站起聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.camel.stand\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓常態喵喵聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓死亡慘叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.death\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓受傷尖叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.hurt\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓討食的連續喵叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.beg_for_food\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓遇到危險發出的哈氣威嚇聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.hiss\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓感到安心時的呼嚕聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.purr\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 貓睡醒時的呼嚕喵聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cat.purreow\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 洞穴蜘蛛常態嘶吼聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cave_spider.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 雞常態咯咯聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.chicken.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 雞下蛋聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.chicken.egg\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 鱈魚在水中吐氣泡與翻滾聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cod.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 牛常態哞哞聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cow.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 幫牛擠牛奶聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.cow.milk\"}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

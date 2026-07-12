@@ -1,0 +1,410 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 終界使者瞬間移動的撕裂空間聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.enderman.teleport\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 終界蟎常態爬行沙沙聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.endermite.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 喚魔者常態低吟聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.evoker.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 喚魔者準備施法的神祕咒語聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.evoker.cast_spell\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 喚魔者召喚尖牙前的預備音效\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.evoker.prepare_attack\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 喚魔者召喚威克斯幻翼前的預備音效\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.evoker.prepare_summon\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 地底冒出喚魔者尖牙合攏咬碎聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.evoker_fangs.attack\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 玩家拾取經驗值球的叮噹聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.experience_orb.pickup\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 煙火火箭空中大爆炸聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.firework_rocket.blast\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 煙火火箭發射沖天破空聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.firework_rocket.launch\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 煙火碎屑在空中閃爍劈啪聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.firework_rocket.twinkle\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 收回收線釣魚浮標聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.fishing_bobber.retrieve\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 魚咬鉤浮標沉入水中的水花聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.fishing_bobber.splash\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 拋出釣魚線浮標聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.fishing_bobber.throw\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 狐狸常態鳴叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.fox.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 狐狸夜晚特有的恐怖尖叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.fox.screaming\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 青蛙常態呱呱聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.frog.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 青蛙吐出舌頭捕食聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.frog.tongue\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 青蛙吞食史萊姆/岩漿怪聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.frog.eat\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 惡魂常態空靈哭泣叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.ghast.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 惡魂死亡慘烈嚎叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.ghast.death\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 惡魂受傷尖叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.ghast.hurt\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 惡魂口吐火球的尖銳發射聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.ghast.shoot\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 螢光魷魚常態發光空靈音\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.glow_squid.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 山羊常態咩咩聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.goat.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 尖叫山羊罕見的擬人化恐怖尖叫聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.goat.screaming.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 山羊全力衝撞到固體方塊的巨響聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"entity.goat.ram_impact\"}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

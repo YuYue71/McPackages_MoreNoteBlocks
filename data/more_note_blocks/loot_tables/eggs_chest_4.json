@@ -1,0 +1,410 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 放入終界之眼至傳送門框架聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.end_portal_frame.fill\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 關閉終界箱聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.ender_chest.close\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 開啟終界箱聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.ender_chest.open\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 關閉圍籬門聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.fence_gate.close\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 開啟圍籬門聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.fence_gate.open\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 火焰燃燒常態音\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.fire.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 火焰被熄滅的嗤嗤聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.fire.extinguish\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 熔爐燃燒劈啪聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.furnace.fire_crackle\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 玻璃碎裂聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.glass.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 在玻璃上行走聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.glass.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞草方塊聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.grass.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 在草地或樹葉上行走聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.grass.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 使用砂輪聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.grindstone.use\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞沉重核心聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.heavy_core.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 在沉重核心上行走聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.heavy_core.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 鐵門關閉聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.iron_door.close\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 鐵門開啟聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.iron_door.open\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 鐵活板門關閉聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.iron_trapdoor.close\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 鐵活板門開啟聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.iron_trapdoor.open\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞梯子聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.ladder.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 爬梯子聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.ladder.step\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 破壞燈籠聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lantern.break\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 放置燈籠聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lantern.place\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 岩漿常態冒泡聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lava.ambient\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 岩漿遇水凝固的嗤嗤聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lava.extinguish\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 岩漿噴濺火星聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lava.pop\"}}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"[🎵] 拉動拉桿聲\",\"color\":\"aqua\",\"italic\":false}'},EntityTag:{id:\"minecraft:marker\",Tags:[\"init_custom_note\"],data:{sound:\"block.lever.click\"}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

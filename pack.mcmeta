@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "supported_formats": {
+            "min_inclusive": 18,
+            "max_inclusive": 48
+        },
+        "description": "新增更多的音階盒:1.20.2-1.20.4\n資料包作者:幽月YuYueSama"
+    }
+}
