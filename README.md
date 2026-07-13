@@ -19,21 +19,21 @@
 - [授權](#授權)
 
 ### 關於
-透過資料包巨幅擴展原味音階盒，新增近 500 種自訂音效。本專案為純淨相容原版生存的資料包，不需要安裝任何額外的資源包，藉由自訂的 NBT 生怪蛋與底層實體路由，讓玩家能輕鬆取得並觸發包含環境底噪、生物咆哮與魔法科技在內的各種原生音效。
+透過資料包巨幅擴展原味音階盒, 新增近 500 種自訂音效. 本專案為純淨相容原版生存的 Minecraft 資料包, 不需要安裝任何額外的資源包. 藉由自訂的 NBT 生怪蛋與底層實體路由, 讓玩家能輕鬆取得並觸發包含環境底噪, 生物咆哮與魔法科技在內的各種原生音效.
 
 ### 功能
-- 收錄近 500 種原生 Minecraft 音效，並系統化分類。
-- 內建預載 NBT 工作站，可一鍵生成分類箱子以取得生怪蛋。
-- 完美紅石同步，保留邊緣觸發邏輯與右鍵調音功能。
-- 極致底層最佳化，使用 Marker 實體路由並具備自動資源回收機制。
+- 收錄近 500 種原生 Minecraft 音效, 並系統化分類.
+- 內建預載 NBT 工作站, 可一鍵生成分類箱子以取得生怪蛋.
+- 完美紅石同步, 保留邊緣觸發邏輯與右鍵調音功能.
+- 極致底層最佳化, 使用 Marker 實體路由並具備自動資源回收機制.
 
 ### 安裝
 ```bash
-# 1. 於 Releases 下載最新版資料包 (v1.0.0):
+# 1. 於 Releases 下載最新版資料包:
 # [https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip](https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip)
 
 # 2. 將下載的 .zip 檔案放入世界的 datapacks 資料夾中
-# 路徑範例: .minecraft/saves/<你的世界名稱>/datapacks/
+# 路徑範例: .minecraft/saves/<YourWorldName>/datapacks/
 
 # 3. 進入遊戲並執行重新載入指令
 /reload
@@ -46,17 +46,16 @@
 # 取得工作站與音效蛋
 /function more_note_blocks:summon_station
 
-# 1. 對準任意方塊上方，手持取得的生怪蛋點擊右鍵以放置自訂音階盒。
-# 2. 接入紅石訊號即可觸發音效。
-# 3. 對音階盒點擊右鍵可變更音調。
-# 4. 直接破壞方塊即可連帶清除底層標記實體。
+# 1. 對準任意方塊上方, 手持取得的生怪蛋點擊右鍵以放置自訂音階盒.
+# 2. 接入紅石訊號即可觸發音效.
+# 3. 對音階盒點擊右鍵可變更音調.
+# 4. 直接破壞方塊即可連帶清除底層標記實體.
 
 ```
 
 ### 授權
 
-本專案採用 MIT 授權，詳見 [LICENSE](https://www.google.com/search?q=./LICENSE)。
-GitHub 專案庫：https://github.com/YuYue71/McPackages_MoreNoteBlocks
+本專案採用 MIT 授權, 詳見 [LICENSE](https://www.google.com/search?q=./LICENSE).
 
 ---
 
@@ -84,7 +83,7 @@ A Minecraft datapack expanding the note block system with hundreds of vanilla so
 ### Installation
 
 ```bash
-# 1. Download the latest datapack from Releases (v1.0.0):
+# 1. Download the latest datapack from Releases:
 # [https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip](https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip)
 
 # 2. Place the downloaded .zip file into your world's datapacks folder
@@ -110,5 +109,4 @@ A Minecraft datapack expanding the note block system with hundreds of vanilla so
 
 ### License
 
-This project is licensed under the MIT License — see [LICENSE](https://www.google.com/search?q=./LICENSE).
-GitHub Repository: https://github.com/YuYue71/McPackages_MoreNoteBlocks
+This project is licensed under the MIT License, see [LICENSE](https://www.google.com/search?q=./LICENSE).
