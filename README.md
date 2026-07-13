@@ -1,88 +1,114 @@
 # MoreNoteBlocks
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.4-success)
-![Datapack](https://img.shields.io/badge/Type-Datapack-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tech](https://img.shields.io/badge/stack-Minecraft_Datapack-lightgrey)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.20.2_--_1.20.4-orange)
 
-[English](#english) | [繁體中文](#繁體中文)
-
----
-
-## <a name="english"></a> English
-
-### Overview
-**MoreNoteBlocks** is a data-driven Minecraft datapack that massively expands vanilla audio mechanics. By utilizing NBT-injected custom spawn eggs, players can deploy specialized Note Blocks that trigger nearly 500 distinct vanilla sound events.
-
-No resource packs required. 100% Vanilla compatible.
-
-### Core Features
-* **Massive Sound Library**: Access almost 500 native Minecraft sounds, comprehensively categorized.
-* **Plug-and-Play Tool Station**: Summon a pre-baked NBT structure containing categorized chests to visually browse and obtain custom sound eggs.
-* **Vanilla Redstone Parity**: Retains standard redstone edge-trigger logic (`powered=true/false`).
-* **Architectural Optimization**: Utilizes lightweight Marker entities for sound routing, featuring in-line spatial alignment and automated garbage collection.
-
-### Installation & Quick Start
-1. Place the `.zip` file into your world's `datapacks` folder.
-2. Join the world and execute `/reload`.
-3. Summon the integrated Tool Station to access the sound eggs:
-```mcfunction
-/function more_note_blocks:summon_station
-```
-
-### Technical Architecture & Operational Risks
-
-* **Instantiation Alignment**: `setup_note.mcfunction` handles precise spatial alignment (`tp @s ~0.5 ~0.5 ~0.5`).
-* *Operational Risk*: Failure to align entities results in raycast missing (`distance=..1`) during manual tuning and triggers the garbage collection failsafe.
-
-
-* **Edge-Trigger Routing**: `tick.mcfunction` manages high-frequency event polling. It decouples physical redstone triggers from the Marker's internal state via the `is_powered` tag.
-* *Operational Risk*: If state tags are not mutually cleared, the block enters a "State Lock," failing to respond to subsequent redstone signals.
-
-
-* **Data Persistence**: Sound registries bypass dynamic Loot Tables and are directly serialized into a static NBT template (`tool_station.nbt`) to prevent tick-lag during massive array instantiation.
+[中文](#中文) | [English](#english)
 
 ---
 
-##  繁體中文
+## 中文
 
-### 專案簡介
+### 目錄
+- [關於](#關於)
+- [功能](#功能)
+- [安裝](#安裝)
+- [使用方式](#使用方式)
+- [授權](#授權)
 
-**更多音階盒 (MoreNoteBlocks)** 是一款資料驅動的 Minecraft 資料包，巨幅擴展了原味的音效機制。透過寫入自訂 NBT 數據的生怪蛋，玩家可以部署特殊的音階盒，藉此觸發近 500 種獨立的原味遊戲音效。
+### 關於
+透過資料包巨幅擴展原味音階盒，新增近 500 種自訂音效。本專案為純淨相容原版生存的資料包，不需要安裝任何額外的資源包，藉由自訂的 NBT 生怪蛋與底層實體路由，讓玩家能輕鬆取得並觸發包含環境底噪、生物咆哮與魔法科技在內的各種原生音效。
 
-無需安裝任何資源包 (Resource Pack)，100% 相容原味生存機制。
+### 功能
+- 收錄近 500 種原生 Minecraft 音效，並系統化分類。
+- 內建預載 NBT 工作站，可一鍵生成分類箱子以取得生怪蛋。
+- 完美紅石同步，保留邊緣觸發邏輯與右鍵調音功能。
+- 極致底層最佳化，使用 Marker 實體路由並具備自動資源回收機制。
 
-### 核心功能
+### 安裝
+```bash
+# 1. 於 Releases 下載最新版資料包 (v1.0.0):
+# [https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip](https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip)
 
-* **龐大的音效資料庫**：收錄近 500 種原生音效，並經過系統化分類。
-* **預載 NBT 工作站**：透過指令一鍵生成預先烘焙好的實體建築與分類箱子，方便玩家以最直覺的視覺化方式取得實體音效。
-* **完美的紅石同步**：保留原味音階盒的邊緣觸發邏輯，支援所有紅石元件驅動，並可右鍵調音。
-* **極致的底層最佳化**：使用輕量化 Marker (標記實體) 進行事件路由，整合精確的空間座標校正與自動資源回收 (Garbage Collection)。
+# 2. 將下載的 .zip 檔案放入世界的 datapacks 資料夾中
+# 路徑範例: .minecraft/saves/<你的世界名稱>/datapacks/
 
-### 安裝指南與快速上手
+# 3. 進入遊戲並執行重新載入指令
+/reload
 
-1. 將資料包 `.zip` 放入世界的 `datapacks` 資料夾。
-2. 進入遊戲並輸入 `/reload`。
-3. 輸入以下指令召喚整合型工作站，以獲取自訂生怪蛋：
-```mcfunction
-/function more_note_blocks:summon_station
 ```
 
+### 使用方式
 
+```bash
+# 取得工作站與音效蛋
+/function more_note_blocks:summon_station
 
-### 技術架構與潛在風險披露 (Architecture & Operational Risks)
+# 1. 對準任意方塊上方，手持取得的生怪蛋點擊右鍵以放置自訂音階盒。
+# 2. 接入紅石訊號即可觸發音效。
+# 3. 對音階盒點擊右鍵可變更音調。
+# 4. 直接破壞方塊即可連帶清除底層標記實體。
 
-本專案採用高度解耦的微服務架構，將 NBT 負載與高頻邏輯徹底分離：
+```
 
-* **實例化與空間錨定 (Instantiation Alignment)**：
-* **邏輯**：部署時透過 `setup_note.mcfunction` 強制將實體對齊至網格中心 (`tp @s ~0.5 ~0.5 ~0.5`)。
-* **潛在風險**：若缺乏精確的子像素座標校正，將導致玩家右鍵調音時的射線追蹤 (`distance=..1`) 脫靶，並會引發邊界防護機制造成實體意外自我銷毀。
+### 授權
 
+本專案採用 MIT 授權，詳見 [LICENSE](https://www.google.com/search?q=./LICENSE)。
+GitHub 專案庫：https://github.com/YuYue71/McPackages_MoreNoteBlocks
 
-* **邊緣觸發路由 (Edge-Trigger Routing)**：
-* **邏輯**：`tick.mcfunction` 透過交叉驗證物理方塊狀態 (`powered=true`) 與實體虛擬標籤 (`is_powered`) 來實作完美的上升沿觸發 (Rising Edge)。
-* **潛在風險**：狀態突變若未能於單一遊戲刻 (Tick) 內完成對稱重置，將引發「狀態鎖定 (State Lock)」，導致系統丟棄後續所有的紅石更新訊號。
+---
 
+## English
 
-* **資料序列化 (Data Persistence)**：
-* **邏輯**：捨棄原生的 Loot Table 動態生成，將近 500 筆音效陣列直接打包為靜態 NBT 結構 (`tool_station.nbt`)。
-* **潛在風險**：避免在單一高頻事件中呼叫超過 20 次夾帶龐大 NBT 負載的 `/setblock`，徹底根除伺服器 TPS (Ticks Per Second) 的運算抖動問題。
+### Table of Contents
+
+* [About](https://www.google.com/search?q=%23about)
+* [Features](https://www.google.com/search?q=%23features)
+* [Installation](https://www.google.com/search?q=%23installation)
+* [Usage](https://www.google.com/search?q=%23usage)
+* [License](https://www.google.com/search?q=%23license)
+
+### About
+
+A Minecraft datapack expanding the note block system with hundreds of vanilla sounds. Fully compatible with vanilla survival mechanics and requiring no additional resource packs, this project uses custom NBT spawn eggs and underlying entity routing to let players easily place note blocks that trigger ambient noises, entity roars, and magical tech sounds.
+
+### Features
+
+* Access nearly 500 native Minecraft sounds, comprehensively categorized.
+* Built-in NBT tool station to instantly summon categorized chests for obtaining spawn eggs.
+* Perfect redstone parity retaining standard edge-trigger logic and right-click tuning.
+* Architectural optimization utilizing Marker entity routing with automated garbage collection.
+
+### Installation
+
+```bash
+# 1. Download the latest datapack from Releases (v1.0.0):
+# [https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip](https://github.com/YuYue71/McPackages_MoreNoteBlocks/releases/download/v1.0.0/MoreNoteBlocks.zip)
+
+# 2. Place the downloaded .zip file into your world's datapacks folder
+# Path: .minecraft/saves/<YourWorldName>/datapacks/
+
+# 3. Join your world and execute the reload command
+/reload
+
+```
+
+### Usage
+
+```bash
+# Summon the tool station to obtain sound eggs
+/function more_note_blocks:summon_station
+
+# 1. Right-click on top of any block with a spawn egg to deploy the custom note block.
+# 2. Power the block with redstone to play the sound.
+# 3. Right-click the block to tune the pitch.
+# 4. Break the block to automatically clear the underlying marker entity.
+
+```
+
+### License
+
+This project is licensed under the MIT License — see [LICENSE](https://www.google.com/search?q=./LICENSE).
+GitHub Repository: https://github.com/YuYue71/McPackages_MoreNoteBlocks
